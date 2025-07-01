@@ -8,7 +8,6 @@ body {
     margin: 0;
 }
 
-/* Estilos para a página de Login */
 .login-container {
     background-color: #fff;
     padding: 30px;
@@ -38,7 +37,7 @@ h2 {
 
 .input-group input[type="email"],
 .input-group input[type="password"] {
-    width: calc(100% - 20px); /* Adjust for padding */
+    width: calc(100% - 20px); 
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -66,24 +65,23 @@ button[type="submit"]:hover {
     color: #dc3545;
     margin-top: 15px;
     font-size: 14px;
-    height: 20px; /* Reserve space to prevent layout shift */
+    height: 20px; 
 }
 
 
-/* Estilos para a página de Boas-Vindas */
 .welcome-container {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 450px; /* Um pouco maior para acomodar a interação */
+    max-width: 450px;
     text-align: center;
     color: #333;
 }
 
 .welcome-container h2 {
-    color: #28a745; /* Cor verde para sucesso */
+    color: #28a745; 
     margin-bottom: 20px;
 }
 
@@ -113,7 +111,7 @@ textarea#userMessage {
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
     font-size: 15px;
 }
 
@@ -135,12 +133,12 @@ button#saveMessageBtn:hover {
 .status-message {
     margin-top: 15px;
     font-size: 0.9em;
-    color: #28a745; /* Cor para mensagens de sucesso */
-    height: 20px; /* Para manter o layout estável */
+    color: #28a745; 
+    height: 20px;
 }
 
 .logout-button {
-    background-color: #dc3545; /* Cor vermelha para sair */
+    background-color: #dc3545; 
     color: white;
     padding: 12px 25px;
     border: none;
